@@ -1,0 +1,253 @@
+@charset "utf-8";
+@import "header";
+@import "footer";
+#ad{
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    height: 71.84px;
+    img{
+        width: 100%;
+        border: none;
+    }
+    span{
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: inline-block;
+        padding: 5px 10px;
+        background: rgb(182,5,0);
+        color: #fff;
+    }
+}
+//右侧固定栏样式
+#fixed_right{
+    position: fixed;
+    right: 10px;
+    top: 35%;
+    margin-top: -100px;
+    width: 60px;
+    background: white;
+    border: 1px solid #CCC;
+    border-top: none;
+    font-size: 12px;
+    font-family: "Microsoft YaHei",SimSun;
+    z-index: 199;
+    span{
+        display: block;
+        width: 60px;
+        height: 67px;
+        border-top: 1px solid #CCC;
+        position: relative;
+        color: #666;
+        text-decoration: none;
+        overflow: hidden;
+        i{
+            display: block;
+            padding: 15px 12px;
+            height: 37px;
+            font-size: 12px;
+            line-height: 18px;
+            text-align: center;
+            font-style: normal;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+         b{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 60px;
+            height: 67px;
+        }
+    }
+    .span1 b{
+            background: url(../images/ico_top.png) center no-repeat white;
+    }
+    .span2 b{
+            background: url(../images/ico_wx.png) center no-repeat white;
+    }
+    .span3 b{
+            background: url(../images/ico_app.png) center no-repeat white;
+    }
+}
+#kefu{
+    background: url(../images/xiaonengkefu.png) no-repeat center;
+    width: 68px;
+    height: 68px;
+    border-radius: 2px;
+    border: 1px solid #dadee7;
+    z-index: 99999;
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    margin-top: 50px;
+}
+//动画图标部分
+#photo{
+    width: 1090px;
+    height: 1px;
+    text-align: center;
+    cursor: default;
+    margin: 40px auto;
+    background: #B5B5B5;
+    font-size: 0;
+    span{
+        display: inline-block;
+        width: 160px;
+        height: 48px;
+        line-height: 48px;
+        margin-top: -24px;
+        vertical-align: middle;
+        background: #F8F8F8;
+        i{
+            display: inline-block;
+            vertical-align: middle;
+            width: 48px;
+            height: 48px;
+            border-radius: 24px;
+            line-height: 48px;
+        }
+        em{
+            color: #969696;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 7px;
+            height: 48px;
+            line-height: 48px;
+        }
+        .i1{
+            background: url(../images/ban_floor01.png) center no-repeat;
+        }
+        .i2{
+            background: url(../images/ban_floor02.png) center no-repeat;
+        }
+        .i3{
+            background: url(../images/ban_floor03.png) center no-repeat;
+        }
+        .i4{
+            background: url(../images/ban_floor04.png) center no-repeat;
+        }
+    }
+}
+//分割线
+#hr{
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+//限时特卖
+#active{
+    width: 100%;
+    height: 342px;
+    .kill{
+        width: 775px;
+        height: 50px;
+        margin: 0 auto;
+        padding-left: 315px;
+    }
+    span{
+        cursor: pointer;
+        display: block;
+        width: 230px;
+        //height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 24px;
+        font-family: "微软雅黑";
+        color: #000;
+        box-shadow: 0px 0px 0px 1px #ddd;
+        margin: 0;
+        background: #fff;
+        float: left;
+        position: relative;
+    }
+    .kill_detail{
+        width: 1090px;
+        height: 290px;
+        background: #ed1d2b;
+        margin: 2px auto 10px;
+        ul{
+            width: 1090px;
+            height: 280px;
+            padding-top: 10px;
+        }
+        li{
+            width: 346px;
+            height: 268px;
+            background: #fff;
+            float: left;
+            margin-left: 14px;
+            position: relative;
+        }
+    }
+}
+//每周特卖
+#temai{
+    width: 1090px;
+    margin: 0 auto;
+    .te_title{
+        line-height: 1.5;
+        padding-bottom: 20px;
+        min-height: 48px;
+        .t1{
+            display: block;
+            text-align: center;
+            color: #3A3A3A;
+        }
+        i{
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            font-style: normal;
+            font-family: SimHei;
+        }
+        em{
+            font-size: 24px;
+            font-family: "微软雅黑";
+            margin-left: 10px;
+        }
+        .t2{
+            font-family: SimSun;
+            font-size: 14px;
+            display: block;
+            text-align: center;
+            color: #3A3A3A;
+        }
+    }
+    .te_banner{
+        position: relative;
+        height: 380px;
+        .te_bannerl{
+            width: 752px;
+            height: 378px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border: 1px solid orange;
+        }
+        .te_bannerr2{
+            width: 336px;
+            height: 380px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: red;
+            border: 1px solid orange;
+        }
+    }
+}
+//敏感肌肤
+#min{
+    width: 1090px;
+    margin: 25px auto;
+    img{
+        display: block;
+        width: 1090px;
+        height: 90px;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+}

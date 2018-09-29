@@ -1,0 +1,349 @@
+@charset "utf-8";
+//第一部分
+#top{
+    width: 100%;
+    height: 30px;
+    background: url(../images/top_bar_bg.jpg);
+    .center{
+        position: relative;
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+//左侧头部（登录）
+#top_left{
+    position: absolute;
+    top:0;
+    left:0;
+    color: #A1A1A1;
+
+    #shou{
+        margin: 0 6px 0 0 !important;
+        color: #666 !important;
+    }
+    #moblie_app {
+        margin-left: 4px;
+        padding-left: 10px;
+        background: url(../images/ico_mobile.jpg) left center no-repeat;
+        display: inline-block;
+        position: relative;
+        a{
+            margin: 0 2px 0 10px;
+            color: #F55800 !important;
+            margin-left: 2px !important;
+            height: 30px;
+            line-height: 30px;
+        }
+    }
+    #denglu{
+       a{
+           color: #2867D3;
+       }
+    }
+}
+//左侧头部（个人中心）
+#top_right{
+    position: absolute;
+    top:0;
+    right:0;
+    a{
+        color: #666;  
+        height: 30px;
+        line-height: 30px;  
+    }
+    li{
+        float: left;
+        margin-left: 16px;
+        height: 30px;
+        line-height: 30px;  
+    }
+    #yhq{
+        background: url(../images/ico_yhqs.jpg) left center no-repeat;
+        position: relative;
+        padding-left: 18px;
+    }
+    #dscx {
+        background: url(../images/ico_ddcx.jpg) left center no-repeat;
+        padding-left: 18px;
+    }
+    #grzx {
+        background: url(../images/ico_grzx.jpg) left center no-repeat;
+        padding-left: 18px;
+    }
+    #bzzx {
+        background: url(../images/s1.gif) 60px center no-repeat;
+        margin-left: 6px !important;
+        width: 76px;
+        position: relative;
+        span{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 74px;
+            height: 28px;
+            border: 1px solid #F5F5F5;
+            overflow: hidden
+        }
+        a{
+            background: url(../images/s1.gif) 60px center no-repeat;
+            display: block;
+            padding-left: 10px;
+        }
+    }
+}
+//第二部分
+#top2{
+    padding: 8px 0 12px;
+    .top2-center{
+        width:1200px;
+        height: 100px;
+        margin:0 auto;
+        position: relative;
+//购物车
+        .shopping{
+            position: absolute;
+            width: 106px;
+            height: 44px;
+            right: 27px;
+            top: 27px;
+            background: red;
+        }
+    }
+//logo部分
+    .logo{
+        width:290px;
+        height:56px;
+        position: absolute;
+        left: 0;
+        top: 10px;
+    }
+//搜索部分
+    .search{
+        position: absolute;
+        left: 330px;
+        top: 26px;
+        width: 534px;
+        height: 32px;
+        background: white;
+        border: 3px solid #B91318;
+        input{
+            position: absolute;
+            left: 8px;
+            top: 4px;
+            width: 430px;
+            height: 24px;
+            border: none;
+            background: white;
+            color: #666;
+            line-height: 24px;
+            font-size: 12px;
+            outline: none;
+        }
+        button{
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 86px;
+            height: 32px;
+            background: url(../images/search_btn.jpg) center no-repeat #B91318;
+            border: none;
+            text-indent: -9999px;
+            overflow: hidden;
+            margin: 0;
+            white-space: nowrap;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+        
+    }
+    .keyword{
+        position: absolute;
+        top: 37px;
+        left: -3px;
+        line-height: 14px;
+        width: 580px;
+        height: 14px;
+        padding: 8px 0 8px 15px;
+        white-space: nowrap;
+        overflow: hidden;
+        a{
+            float: left;
+            padding: 0 8px;
+            height: 14px;
+            border-left: 1px solid #999;
+            color: #999;
+            line-height: 14px;
+        }
+        .one{
+            border: none;
+        }
+        .hot{
+            color:#ff5a02;
+        }
+    }
+}
+
+#topnav{
+        height: 40px;
+        background: #DB0D17;
+        min-width: 1200px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+        border-bottom: none;
+        position: relative;
+        z-index: 97;
+    #center2{
+        width: 1200px;
+        height: 40px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 97;
+    }
+    .nav{
+        width: 1200px;
+        height: 40px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 97;
+        a{
+            font-size: 15px;
+            font-weight: bold;
+            color: white; 
+        }
+//二级导航栏
+        .f-nav{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 160px;
+            height: 40px;
+            background: #BC0000;
+        }
+        .all-s{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 160px;
+            text-align: center;
+            a{
+               height: 40px;
+                line-height: 40px; 
+            }
+        }
+//大导航（首页）
+        .ul-nav{
+            position: absolute;
+            left: 160px;
+            top: 0;
+            width: 1000px;
+            height: 30px;
+            padding: 0 20px;
+            li{
+                float: left;
+                height: 40px;
+
+                position: relative;
+            }
+            a{
+                display: block;
+                padding: 0 20px;
+                height: 40px;
+                line-height: 40px;
+                line-height: 40px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            img{
+                z-index: 9;
+                position: absolute;
+                right: -2px;
+                top: 2px;
+            }
+        }
+    }
+    .nav2{
+        position: absolute;
+        left: 0;
+        top: 40px;
+        width: 158px;
+        border: 1px solid #DB0D17;
+        border-top: none;
+        padding: 2px 0 3px;
+        background: white;
+    }
+//二级导航li标签样式
+    .items{
+        line-height: 43px;
+        height: 43px;
+        position: relative;
+        background: white;
+        i{
+                position: absolute;
+                right: 3px;
+                top: 17px;
+                width: 5px;
+                height: 9px;
+                background: url(../images/arrow_a.jpg) center no-repeat;
+        }
+//li标签下路的a和b的公用样式
+        .word{
+                color: #BC0000;
+                line-height: 43px;
+                font: 12px/1.5 Arial;
+                line-height: 43px;
+            }
+        b{
+            border-top: 1px solid #EEE;
+            display: block;
+            margin: 0 6px;
+            padding-left: 27px;
+            height: 46px;
+            position: relative;
+        } 
+    }
+//二级导航li标签背景图样式
+    .no1{
+        b{
+            background: url(../images/nav_ico_00.png) 2px center no-repeat;
+        }
+    }
+    .no2{
+        b{
+            background: url(../images/nav_ico_01.png) 2px center no-repeat;
+        }
+    }
+    .no3{
+        b{
+            background: url(../images/nav_ico_02.png) 2px center no-repeat;
+        }
+    }
+    .no4{
+        b{
+            background: url(../images/nav_ico_03.png) 2px center no-repeat;
+        }
+    }
+    .no5{
+        b{
+            background: url(../images/nav_ico_04.png) 2px center no-repeat;
+        }
+    }
+    .no6{
+        b{
+            background: url(../images/nav_ico_05.png) 2px center no-repeat;
+        }
+    }
+    .no7{
+        b{
+            background: url(../images/nav_ico_06.png) 2px center no-repeat;
+        }
+    }
+    .no8{
+        b{
+            background: url(../images/nav_ico_07.png) 2px center no-repeat;
+        }
+    }
+    .no9{
+        b{
+            background: url(../images/nav_ico_08.png) 2px center no-repeat;
+        }
+    }
+}
